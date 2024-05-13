@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Sedan+SC&display=swap');
+
+.container {
+    width: 1400px;
+    padding: 15px;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/*Index*/
+
+h1{
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px 0px 20px 0px;
+}
+
+.titlee {
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px 0px 20px 0px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-line {
+    background-color: black;
+    padding: 2px;
+    border: 0;
+    margin: 0px 30px 60px 30px;
+}
+
+.footer-bar {
+    background-color: rgb(252, 209, 156);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.column1 {
+    width: 60%;
+    font-size: 60px;
+}
+
+.designer {
+    display: flex;
+    flex-wrap: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 0px 20px 0px;
+    font-size: 35px;
+}
+
+.column2 {
+    width: 40%;
+}
+
+/*Works*/
+
+.works-container {
+    padding: 0px 100px 0px 100px;
+}
+
+.projects {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+ }
+
+.workss {
+    display: flex;
+    justify-content: center;
+    font-family: "Germania One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.works1 {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.work-names {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.works2 {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Services*/
+
+.servicess {
+    background-color: rgb(252, 209, 156);
+    margin: 70px 140px 50px 140px;
+    height: 410px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.services-title {
+    font-family: "Germania One", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(123, 173, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.services1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.services2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px 35px 0px;
+}
+
+
+/*Contact*/
+
+.row-contact {
+    overflow: auto;
+}
+
+.column-contact1 {
+    width: 50%;
+    float: left;
+}
+
+.row-forms {
+    margin-top: 80px;
+}
+
+.contact-title {
+    font-family: "Germania One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.self-info {
+    font-size: 24px;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 209, 156);
+    width: 50%;
+    margin-top: 50px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(252, 209, 156);
+    border-width: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+ }
+
+ form textarea {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(252, 209, 156);
+    border-width: 0;
+    padding: 10px 0px 0px 10px;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+ } 
